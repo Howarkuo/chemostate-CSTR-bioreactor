@@ -5,6 +5,8 @@
 
 This project models substrate consumption, biomass growth, and product formation in a chemostat. It compares a **nonlinear Monod-kinetics model** integrated with SciPy against a **first-order linearized state-space model** simulated with `python-control`.
 
+## Engineering problem statement
+How does changing the inlet substrate concentration \(C_{S0}\) affect the transient and steady-state concentrations of substrate \(C_S\), biomass \(C_X\), and product \(C_P\) in a continuous bioreactor? How accurately can a linearized state-space model predict these changes compared with the original nonlinear Monod kinetics model?
 
 
 ## Concepts
